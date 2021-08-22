@@ -76,6 +76,11 @@ namespace XorO
                 StartNewGame();
                 label6.Text = (int.Parse(label6.Text) + 1).ToString();
             }
+            else if (btB2.Text == "X" && btC2.Text == "X" && btA2.Text == "X")
+            {
+                StartNewGame();
+                label6.Text = (int.Parse(label6.Text) + 1).ToString();
+            }
             if (btA1.Text == "O" && btA2.Text == "O" && btA3.Text == "O")
             {
                 StartNewGame();
@@ -107,6 +112,11 @@ namespace XorO
                 label5.Text = (int.Parse(label5.Text) + 1).ToString();
             }
             else if (btB1.Text == "O" && btB2.Text == "O" && btB3.Text == "O")
+            {
+                StartNewGame();
+                label5.Text = (int.Parse(label5.Text) + 1).ToString();
+            }
+            else if (btB2.Text == "O" && btC2.Text == "O" && btA2.Text == "O")
             {
                 StartNewGame();
                 label5.Text = (int.Parse(label5.Text) + 1).ToString();
